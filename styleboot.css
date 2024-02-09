@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 75vh;
+}
+
+.about-inner{
+    text-align: center;
+}
+
+.abimg{
+    min-width:95%;
+    max-height: 300px ;
+}
+
+.bt{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(126, 49, 15);;
+}
+
+.btn{
+    border: 3px solid rgb(8, 108, 133);
+}
+
+.btn :hover{
+    color: black;
+    text-decoration: none;
+}
+
+.txt{
+    border-bottom: 2px solid rgb(57, 100, 84);
+}
+
+.bg{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(204, 243, 241);
+}
+
+
+.pad{
+    padding-right: 4%;
+}
+
+.dec{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.social{
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    
+    
+    
+}
+
+.color{
+    text-decoration: none;
+    color: rgb(78, 83, 83);
+}
+
+.color:hover{
+    color:rgb(138, 53, 172);
+}
+
+.back{
+    background: rgb(41, 40, 40);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: blanchedalmond;
+    padding;
+}
+
+
+
+
+
+
+// X-Small devices (portrait phones, less than 576px//)
+// No media query for `xs` since this is the default in Bootstrap//
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
